@@ -5,6 +5,7 @@ Pod::Spec.new do |s|
   s.summary          = 'UILabel Category'
 
   s.description      = <<-DESC
+                              UILabel Category Userd
                        DESC
 
   s.homepage         = 'https://github.com/YLazyCat/AJAttributeLabel'
