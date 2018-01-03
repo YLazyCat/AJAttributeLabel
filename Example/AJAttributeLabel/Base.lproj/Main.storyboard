@@ -20,8 +20,43 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sjdflkjalsdf" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="efE-M5-Dhl" customClass="AJAttributedLabel">
+                                <rect key="frame" x="151" y="120" width="74" height="18"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IfL-pJ-ac0" customClass="AJAttributedLabel">
+                                <rect key="frame" x="166.5" y="288" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="automaticLinkDetectionEnabled" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineSpacing">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="efE-M5-Dhl" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="30" id="MJd-ed-70e"/>
+                            <constraint firstItem="IfL-pJ-ac0" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="aus-bD-PFR"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="efE-M5-Dhl" secondAttribute="trailing" constant="30" id="beG-TG-wvk"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="IfL-pJ-ac0" secondAttribute="trailing" constant="30" id="ddI-2s-F4C"/>
+                            <constraint firstItem="efE-M5-Dhl" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="fvN-7c-PiF"/>
+                            <constraint firstItem="IfL-pJ-ac0" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="30" id="lLl-g7-klt"/>
+                            <constraint firstItem="IfL-pJ-ac0" firstAttribute="top" secondItem="efE-M5-Dhl" secondAttribute="bottom" constant="150" id="lke-aY-Kad"/>
+                            <constraint firstItem="efE-M5-Dhl" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="100" id="ube-0M-o6t"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="detailLabel" destination="IfL-pJ-ac0" id="gB6-Qs-hyH"/>
+                        <outlet property="typeLabel" destination="efE-M5-Dhl" id="7TM-RP-cxk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

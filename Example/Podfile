@@ -1,4 +1,6 @@
-use_frameworks!
+platform :ios, '9.0'
+
+#source 'https://github.com/YLazyCat/AJAttributeLabel.git'
 
 target 'AJAttributeLabel_Example' do
   pod 'AJAttributeLabel', :path => '../'
@@ -6,6 +8,5 @@ target 'AJAttributeLabel_Example' do
   target 'AJAttributeLabel_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
   end
 end

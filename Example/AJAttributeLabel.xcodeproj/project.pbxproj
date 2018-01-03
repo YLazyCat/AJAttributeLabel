@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BD55C852AEEC7E22FB86B48 /* Pods_AJAttributeLabel_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F88E10CCA9B0630916C06A /* Pods_AJAttributeLabel_Tests.framework */; };
+		3CD44DA30FCE6A0DDE04F10D /* libPods-AJAttributeLabel_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E00B26485A44D2161C3D93AA /* libPods-AJAttributeLabel_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,9 +21,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6E5A346DA9D7CDC5789A1F2A /* libPods-AJAttributeLabel_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D546414E16D9547ABB80ADD /* libPods-AJAttributeLabel_Example.a */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		D963F3A6125EF3697135C6D0 /* Pods_AJAttributeLabel_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EDC4F8048A936380D086D0A /* Pods_AJAttributeLabel_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +41,7 @@
 		1938CB29946800118EE6B85D /* Pods-AJAttributeLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJAttributeLabel_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AJAttributeLabel_Example/Pods-AJAttributeLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2DD1D1EA07EDAEA92511EA9F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3C0F534CCAD145CA62DBDFD2 /* Pods-AJAttributeLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJAttributeLabel_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AJAttributeLabel_Tests/Pods-AJAttributeLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D546414E16D9547ABB80ADD /* libPods-AJAttributeLabel_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AJAttributeLabel_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* AJAttributeLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AJAttributeLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,12 +61,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		65F88E10CCA9B0630916C06A /* Pods_AJAttributeLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJAttributeLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		680FF24AAA2C9425FC79481C /* AJAttributeLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AJAttributeLabel.podspec; path = ../AJAttributeLabel.podspec; sourceTree = "<group>"; };
-		6EDC4F8048A936380D086D0A /* Pods_AJAttributeLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJAttributeLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		884F64E4036E5F9651101B49 /* Pods-AJAttributeLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJAttributeLabel_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AJAttributeLabel_Example/Pods-AJAttributeLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E00B26485A44D2161C3D93AA /* libPods-AJAttributeLabel_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AJAttributeLabel_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7650626A3731BCE1BCD7915 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				D963F3A6125EF3697135C6D0 /* Pods_AJAttributeLabel_Example.framework in Frameworks */,
+				6E5A346DA9D7CDC5789A1F2A /* libPods-AJAttributeLabel_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				1BD55C852AEEC7E22FB86B48 /* Pods_AJAttributeLabel_Tests.framework in Frameworks */,
+				3CD44DA30FCE6A0DDE04F10D /* libPods-AJAttributeLabel_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				6EDC4F8048A936380D086D0A /* Pods_AJAttributeLabel_Example.framework */,
-				65F88E10CCA9B0630916C06A /* Pods_AJAttributeLabel_Tests.framework */,
+				5D546414E16D9547ABB80ADD /* libPods-AJAttributeLabel_Example.a */,
+				E00B26485A44D2161C3D93AA /* libPods-AJAttributeLabel_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

@@ -1,8 +1,8 @@
 {
   "name": "AJAttributeLabel",
   "version": "0.1.0",
-  "summary": "A short description of AJAttributeLabel.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "UILabel Category",
+  "description": "UILabel Category Userd",
   "homepage": "https://github.com/YLazyCat/AJAttributeLabel",
   "license": {
     "type": "MIT",
@@ -16,7 +16,8 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "AJAttributeLabel/Classes/**/*"
+  "source_files": "AJAttributeLabel/Classes/**/*",
+  "public_header_files": "AJAttributeLabel/Classes/**/*.h"
 }
