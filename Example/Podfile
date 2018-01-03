@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AJAttributeLabel_Example' do
+  pod 'AJAttributeLabel', :path => '../'
+
+  target 'AJAttributeLabel_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
