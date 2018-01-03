@@ -1,0 +1,23 @@
+PODS:
+  - AJAttributeLabel (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - AJAttributeLabel (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  AJAttributeLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AJAttributeLabel: eb622ac4f6fd687fdc26f9b6b640d52e0595ad4b
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 1220c3ba769e689a0def483c4666698326c018c9
+
+COCOAPODS: 1.2.1

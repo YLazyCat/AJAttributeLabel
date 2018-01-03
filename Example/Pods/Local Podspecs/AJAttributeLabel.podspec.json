@@ -1,0 +1,22 @@
+{
+  "name": "AJAttributeLabel",
+  "version": "0.1.0",
+  "summary": "A short description of AJAttributeLabel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/YLazyCat/AJAttributeLabel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "YLazyCat": "shanmj@urwork.cn"
+  },
+  "source": {
+    "git": "https://github.com/YLazyCat/AJAttributeLabel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AJAttributeLabel/Classes/**/*"
+}
